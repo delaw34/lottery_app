@@ -1,14 +1,13 @@
 #lottery application
 #lottery numbers (0-50)
 #user enters name
-#users enters numbers
+#users enters number
 # the application generate a number
 # If your number matches the application number
 #  the user wins the jackpot
-# if the numbers dont match user loss
+# if the numbers dont match user losses
 
 import random
-jackpot_number = "30"
 
 def lottery_cal():
     users_name = input("Enter your name here:  ")
