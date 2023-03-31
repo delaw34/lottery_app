@@ -21,9 +21,9 @@ def lottery_cal():
         print( "your input number", user_num, "is greater than 50, you are disqualified")
     elif user_num  == lottery_gen and lottery_gen == jackpot_number: 
         
-        print( users_name,"Your number is", user_num, "your lottery winning number is", lottery_gen, "and the jackpot wining is", jackpot_number,  "CONGRATULATION! you are lucky winner")
+        print( users_name,"Your number is", user_num, "your lottery winning number is", lottery_gen, "and the jackpot wining is", jackpot_number,  "they all match, CONGRATULATION! you are our lucky winner")
     else:
-        print( users_name,"Your number is",user_num, "your lottery winning number is", lottery_gen, "and the jackpot winning number is",jackpot_number, "you lost, try again")
+        print( users_name,"Your number is",user_num, "your lottery winning number is", lottery_gen, "and the jackpot winning number is",jackpot_number, "they dont match,YOU LOST, try again")
 
   
 
